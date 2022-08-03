@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/Language-C Sharp-blue"> <img src="https://img.shields.io/badge/Platform-Crestron 4 series-blue"> <img src="https://img.shields.io/badge/Masters- 2022-blue">  <img src="https://img.shields.io/badge/Use-Educational-green"> <img src="https://img.shields.io/badge/Copyright-Crestron-blue"> <img src="https://img.shields.io/badge/License-Restricted-orange">
 
-# Masters 2022 MCP-101 Class Files 
+# Masters 2022 MSS-431 Class Files 
 
  The Library is released for the Masters 2022  C# for Crestron MSS-431 class.  Assorted files for the class and to help the student are also included.    A compiled version of the library is included as a DLL as well for ease of use by the students in class. 
 
@@ -9,6 +9,12 @@
 Also, there are documents included for the student for the class as well as the class Xpanel used for the exercises included in this repository.
 
 Please take note how this library  has both documentation, and comments in the code.   These things are considered a best practice both by CTI and the programming industry in general, and should be a part of every type of code you write.    
+
+
+
+There is a zip file that has 2 dll files and a text file that needs to be loaded to the user folder of the program running the example code.  this zip file is called UserFilesToLoad.zip in the repository root directory.
+
+
 
 #### The following is for the Included Library from 2021 - We will use VirtualConsole Only for this year.
 
