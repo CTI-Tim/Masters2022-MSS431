@@ -1,0 +1,67 @@
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Cresnet Helper Example.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Cresnet Helper Example.pdb
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.DM.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Fusion.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Gateways.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.GeneralIO.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Keypads.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Lighting.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Media.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Remotes.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Shades.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Thermostats.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.UC.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.UI.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpAutoUpdateInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpCryptographyInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpCustomAttributesInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpCWSHelperInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpExchangeWebServices.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpHelperInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpNewtonsoft.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpOnvifInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpPro.exe
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpProgrammingInterfaces.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpReflectionInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpSQLHelperInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpTimerEventInterface.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.DM.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Fusion.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Gateways.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.GeneralIO.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Keypads.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Lighting.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Media.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Remotes.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Shades.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.Thermostats.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.UC.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\Crestron.SimplSharpPro.UI.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpAutoUpdateInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpCryptographyInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpCustomAttributesInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpCWSHelperInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpExchangeWebServices.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpHelperInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpNewtonsoft.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpOnvifInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpPro.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpProgrammingInterfaces.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpReflectionInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpSQLHelperInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\bin\Debug\SimplSharpTimerEventInterface.xml
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\obj\Debug\Cresnet Helper Example.csproj.AssemblyReference.cache
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\obj\Debug\Cresnet Helper Example.csproj.CoreCompileInputs.cache
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\obj\Debug\Cresnet Helper Example.csproj.CopyComplete
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\obj\Debug\Cresnet Helper Example.dll
+C:\Users\tim\source\repos\Cresnet Helper Example\Cresnet Helper Example\obj\Debug\Cresnet Helper Example.pdb
