@@ -135,6 +135,7 @@ namespace CrestronMastersMSS431InstructorProgram
                 RefreshList();
             }
         }
+        
         private void myTpSmartObjectSigChange(GenericBase currentDevice, SmartObjectEventArgs args)
         {
 
@@ -176,6 +177,14 @@ namespace CrestronMastersMSS431InstructorProgram
                 }
             }
 
+            // Password validation Happens below.
+
+            // Note: this is extremely basic access control.  it has no real security other than a page flip.
+            // IF a  person was able to page flip or loaded a project to the touchpanel that bypassed the
+            // Password page they have full access.    Doing real security can be hard as you need to check of they
+            // Actually are supposed to have access at every step.
+
+
             // Password Popup Keypad
             if (args.SmartObjectArgs.ID == 2 && args.Sig.BoolValue == true)                                 //also checking if it's a press
             {
@@ -187,7 +196,8 @@ namespace CrestronMastersMSS431InstructorProgram
                 {
                     var PasswordEntered = myPassword.ComputeHash(myTp.StringInput[2].StringValue);
                     // Check password or use back door hard-coded password
-                    if (myPassword.CheckPassword(PasswordEntered, myConfig.Setting.UiPassword) || PasswordEntered.Contains("12345"))
+                    if (myPassword.CheckPassword(PasswordEntered, myConfig.Setting.UiPassword) 
+                        || myTp.StringInput[2].StringValue.Contains("12345"))  // This is the hard coded password
                     {
                         myTp.BooleanInput[(uint)SubPages.ShowLocked].BoolValue = false; //Clear the subpage joins
                         myTp.StringInput[(uint)Serials.PasswordLabel].StringValue = ""; // clear the string
@@ -202,6 +212,7 @@ namespace CrestronMastersMSS431InstructorProgram
                     myTp.StringInput[(uint)Serials.PasswordLabel].StringValue += args.Sig.Name;  // add each character as they are pressed
                 }
             }
+
             // Reflection List
             if (args.SmartObjectArgs.ID == 3 && args.Sig.BoolValue == true)  //SmartObject ID 3 looking for presses only
             {
@@ -254,6 +265,7 @@ namespace CrestronMastersMSS431InstructorProgram
                 }
             }
         }
+
         private void MyTpSigChange(Crestron.SimplSharpPro.DeviceSupport.BasicTriList currentDevice, SigEventArgs args)
         {
             Debug(String.Format("Join currentdevice.ID = {0} Args.Sig.Number={1}", currentDevice.ID, args.Sig.Number));
