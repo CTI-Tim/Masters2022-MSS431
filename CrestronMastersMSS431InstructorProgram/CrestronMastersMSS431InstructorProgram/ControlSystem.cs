@@ -27,6 +27,8 @@ namespace CrestronMastersMSS431InstructorProgram
         // you now only change it in one location and it's changed everywhere it is used.   Think of this like a supercharged
         // constant array to manage your touch panels better in code. Only disadvantage is we have to cast them to (uint) to use them.
 
+        // Yes you can also do this with smart object ID's
+
         enum Buttons
         {
             Settings = 1,
@@ -53,7 +55,10 @@ namespace CrestronMastersMSS431InstructorProgram
             SettingsPort = 5,
             SettingsPinCode = 6,
             NVXName = 7,
-            NVXAddress = 8
+            NVXAddress = 8,
+            ListChosenName = 11,
+            ListChosenAddress = 12,
+            ReflectionResult = 13
 
         }
 
@@ -147,6 +152,7 @@ namespace CrestronMastersMSS431InstructorProgram
             // Remember to figure out what is what open the SGD file in a text editor.
             if (args.SmartObjectArgs.ID == 1) // We use the Smart object ID for the specific SO
             {
+                // Itrem was Pressed and Held
                 if (args.Sig.Name.Contains("Item Held")) // This contains an analog value of the item held
                 {
                     // The smart object tells us when something was held. So we process that and switch to the
@@ -156,6 +162,7 @@ namespace CrestronMastersMSS431InstructorProgram
 
                     myTp.BooleanInput[(uint)SubPages.ShowAddNew].BoolValue = true;                          // Set join  high to show the subpage
                 }
+                //Item was only Clicked
                 if (args.Sig.Name.Contains("Item Clicked"))                                                 // this is an analog value
                 {
                     ushort clickedItem = myTp.SmartObjects[1].UShortOutput["Item Clicked"].UShortValue;
@@ -170,9 +177,8 @@ namespace CrestronMastersMSS431InstructorProgram
                     myTp.SmartObjects[1].UShortInput["Select Item"].UShortValue = clickedItem;
 
                     //  Display the info on the Touchpanel Info Pane
-                    myTp.StringInput[10].StringValue = clickedItem.ToString();
-                    myTp.StringInput[11].StringValue = myConfig.Setting.Endpoints[clickedItem - 1].Name;
-                    myTp.StringInput[12].StringValue = myConfig.Setting.Endpoints[clickedItem - 1].Address;
+                    myTp.StringInput[(uint)Serials.ListChosenName].StringValue = myConfig.Setting.Endpoints[clickedItem - 1].Name;
+                    myTp.StringInput[(uint)Serials.ListChosenAddress].StringValue = myConfig.Setting.Endpoints[clickedItem - 1].Address;
 
                 }
             }
@@ -226,6 +232,7 @@ namespace CrestronMastersMSS431InstructorProgram
                                 myTp.SmartObjects[3].BooleanInput["Tab Button 1 Select"].BoolValue = true;
                                 myTp.SmartObjects[3].BooleanInput["Tab Button 2 Select"].BoolValue = false;
                                 myTp.SmartObjects[3].BooleanInput["Tab Button 3 Select"].BoolValue = false;
+                                // don't make fun of my interlocks   :-)   Yes there is a better way
                             }
                             else
                                 myTp.BooleanInput[11].BoolValue = false;
@@ -324,7 +331,7 @@ namespace CrestronMastersMSS431InstructorProgram
             return string.Format("<FONT size=\"{2}\" face=\"Segoe UI\" color=\"#{0}\">{1}</FONT>", color, s, size);
         }
 
-
+        // Method to refresh our list of items after any change
         private void RefreshList()
         {
             int i = 1;
@@ -351,22 +358,22 @@ namespace CrestronMastersMSS431InstructorProgram
         {
             if (index > myConfig.Setting.Endpoints.Count)  //  we are adding not modifying
             {
-                myTp.StringInput[7].StringValue = "";
-                myTp.StringInput[8].StringValue = "";
-                myTp.BooleanInput[8].BoolValue = false;
+                myTp.StringInput[(uint)Serials.NVXName].StringValue = "";
+                myTp.StringInput[(uint)Serials.NVXAddress].StringValue = "";
+                myTp.BooleanInput[(uint)Buttons.DeleteShow].BoolValue = false;
             }
             else
             {
-                myTp.StringInput[7].StringValue = myConfig.Setting.Endpoints[index - 1].Name;
-                myTp.StringInput[8].StringValue = myConfig.Setting.Endpoints[index - 1].Address;
-                myTp.BooleanInput[8].BoolValue = true;  // turn on the Delete button.
+                myTp.StringInput[(uint)Serials.NVXName].StringValue = myConfig.Setting.Endpoints[index - 1].Name;
+                myTp.StringInput[(uint)Serials.NVXAddress].StringValue = myConfig.Setting.Endpoints[index - 1].Address;
+                myTp.BooleanInput[(uint)Buttons.DeleteShow].BoolValue = true;  // turn on the Delete button.
             }
             SelectedIndex = index;  // update our global
         }
         private void UpdateOrAddItem()
         {
             // We use a global here because the actual changes happen after a completely different 
-            // button push on the touchpanel.  This is a completely different event and because 
+            // button push on the touchpanel.  This is triggered from a completely different event and because 
             // we have to remember what was selected, we stored it in a global.
 
             if (SelectedIndex > myConfig.Setting.Endpoints.Count)   //  we are adding not modifying
@@ -424,7 +431,7 @@ namespace CrestronMastersMSS431InstructorProgram
             //Finally save the information
             myConfig.Save();
             myTp.BooleanInput[(uint)SubPages.ShowSettings].BoolValue = false;
-            myTp.StringInput[1].StringValue = myConfig.Setting.MastersClass;
+            myTp.StringInput[(uint)Serials.HeaderLabel].StringValue = myConfig.Setting.MastersClass;
         }
         private void UpdateSettingsPage()
         {
@@ -481,7 +488,7 @@ namespace CrestronMastersMSS431InstructorProgram
 
         private void MyPlugin_DeviceEvent(object sender, DeviceEventArgs e)
         {
-            myTp.StringInput[13].StringValue = HtmlColor(e.Name, "FFEE00", 22) + "\r" + HtmlColor(e.Message, "FFFFFF", 20);
+            myTp.StringInput[(uint)Serials.ReflectionResult].StringValue = HtmlColor(e.Name, "FFEE00", 22) + "\r" + HtmlColor(e.Message, "FFFFFF", 20);
         }
     }
 }
