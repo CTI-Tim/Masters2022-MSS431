@@ -475,9 +475,10 @@ namespace CrestronMastersMSS431InstructorProgram
                 var myDll = Assembly.LoadFrom(path);  // Load the Dll into  the myDLL object
 
                 myType = myDll.GetTypes();                   // Load the types into the array for inspection
+                // Note: you could use this to validate the library.
                 Debug("Loaded dll");
-                CrestronConsole.PrintLine("Loaded DLL");
-                myPlugin = (IpluginInterface)Activator.CreateInstance(myType[0]); // WE want the very first item. It's the class we want to instantiate.
+
+                myPlugin = (IpluginInterface)Activator.CreateInstance(myType[0]); // We want the very first item. It's the class we want to instantiate.
 
                 myPlugin.DeviceEvent += MyPlugin_DeviceEvent;  //register the event to the event handler.
                 return true;
