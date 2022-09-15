@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace GetJoke
+namespace GetFortune
 {
     public class Fortune : IpluginInterface
     {
@@ -24,7 +24,7 @@ namespace GetJoke
             * 
             */
 
-            string path = CheckFilename("Quotes.txt");
+            string path = CheckFilename("Quotes.txt");  // Yes I know  Fortunes loading Quotes?  Consistent naming matters!
 
             if (File.Exists(path))      // Check to see if it exists. 
             {
@@ -41,6 +41,7 @@ namespace GetJoke
             }
         }
 
+        //HINT: This is probably the code you want to copy to make your own Library to reflect in.
 
         public void Random()
         {

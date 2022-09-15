@@ -251,6 +251,9 @@ namespace CrestronMastersMSS431InstructorProgram
                                 myTp.BooleanInput[11].BoolValue = false;
                             break;
                         }
+
+                        //TODO: Lab3 : good place to put code to load your plugin DLL
+                        // Dont forget to load it to the VC-4 Room!
                 }
             }
 
@@ -307,6 +310,8 @@ namespace CrestronMastersMSS431InstructorProgram
                         break;
 
                         //myTp.UShortInput[4].UShortValue = Selection;
+
+                        //TODO:  Lab1 --  Not a bad idea to create the checkbox toggles here and save their state?
                 }
             }
         }
@@ -411,6 +416,8 @@ namespace CrestronMastersMSS431InstructorProgram
             // to the field to keep from erasing the setting fields.  Remember just because you see text on the touchpanel
             // screen does not mean it's actually there.
 
+            //TODO:  Lab1 Save Settings section
+
 
             string _class = myTp.StringOutput[(uint)Serials.SettingsClassName].StringValue;
             if (_class.Length > 0)
@@ -440,6 +447,8 @@ namespace CrestronMastersMSS431InstructorProgram
             myTp.StringInput[(uint)Serials.SettingsPort].StringValue = myConfig.Setting.Port.ToString();
             myTp.StringInput[(uint)Serials.SettingsPinCode].StringValue = "*****";
             myTp.BooleanInput[(uint)SubPages.ShowSettings].BoolValue = true;  // Show the subpage
+
+            //TODO:  Lab1 update settings page
         }
 
         /*
@@ -463,16 +472,17 @@ namespace CrestronMastersMSS431InstructorProgram
             //myPlugin.DeviceEvent -= MyPlugin_DeviceEvent; // Unsubscribe event handler
             try
             {
-                var myDll = Assembly.LoadFrom(path);  // Load the Dll
+                var myDll = Assembly.LoadFrom(path);  // Load the Dll into  the myDLL object
+
                 myType = myDll.GetTypes();                   // Load the types into the array for inspection
                 Debug("Loaded dll");
                 CrestronConsole.PrintLine("Loaded DLL");
-                myPlugin = (IpluginInterface)Activator.CreateInstance(myType[0]);
+                myPlugin = (IpluginInterface)Activator.CreateInstance(myType[0]); // WE want the very first item. It's the class we want to instantiate.
 
-                myPlugin.DeviceEvent += MyPlugin_DeviceEvent;
+                myPlugin.DeviceEvent += MyPlugin_DeviceEvent;  //register the event to the event handler.
                 return true;
             }
-            catch (FileNotFoundException) // If file is not found we throw this.
+            catch (FileNotFoundException) // If file is not found we throw this.   Reflection is exception based; it throws exceptions for errors.
             {
                 Debug(" FAIL: Reflection Can not find the file at " + path);
                 return false;  // In this case we return false telling the calling code we did not load

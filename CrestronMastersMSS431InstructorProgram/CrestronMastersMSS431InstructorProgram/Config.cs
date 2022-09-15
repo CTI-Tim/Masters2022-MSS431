@@ -113,7 +113,9 @@ namespace CrestronMastersMSS431InstructorProgram
         public ushort Port = 0;
         public string UiPassword = "";
 
-        // Lab portion:  Students add a List for NVX Endpoints
+        //TODO:  Lab1
+
+        // Create a list
         public List<NVX> Endpoints;
 
         public Configuration()
@@ -123,7 +125,7 @@ namespace CrestronMastersMSS431InstructorProgram
 
     }
 
-    // This is in the lab portion.  they only need to create a list of NVX ip addresses and their names
+  
     public class NVX
     {
         public string Address = "";
