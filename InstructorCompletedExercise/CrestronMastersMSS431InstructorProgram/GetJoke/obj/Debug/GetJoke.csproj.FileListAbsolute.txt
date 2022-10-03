@@ -1,0 +1,18 @@
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\bin\Debug\GetJoke.dll
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\bin\Debug\GetJoke.pdb
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\bin\Debug\ReflectionInterface.dll
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\bin\Debug\ReflectionInterface.pdb
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\obj\Debug\GetJoke.csproj.AssemblyReference.cache
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\obj\Debug\GetJoke.csproj.CoreCompileInputs.cache
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\obj\Debug\GetJoke.csproj.CopyComplete
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\obj\Debug\GetJoke.dll
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\GetFortune\obj\Debug\GetJoke.pdb
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\bin\Debug\GetJoke.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\bin\Debug\GetJoke.pdb
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\bin\Debug\ReflectionInterface.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\bin\Debug\ReflectionInterface.pdb
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\obj\Debug\GetJoke.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\obj\Debug\GetJoke.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\obj\Debug\GetJoke.csproj.CopyComplete
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\obj\Debug\GetJoke.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\GetJoke\obj\Debug\GetJoke.pdb

@@ -1,0 +1,12 @@
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\ReflectionInterface\bin\Debug\ReflectionInterface.dll
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\ReflectionInterface\bin\Debug\ReflectionInterface.pdb
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.csproj.AssemblyReference.cache
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.csproj.CoreCompileInputs.cache
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.dll
+H:\Masters 2022 Working Folder\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.pdb
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\ReflectionInterface\bin\Debug\ReflectionInterface.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\ReflectionInterface\bin\Debug\ReflectionInterface.pdb
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\ReflectionInterface\obj\Debug\ReflectionInterface.pdb

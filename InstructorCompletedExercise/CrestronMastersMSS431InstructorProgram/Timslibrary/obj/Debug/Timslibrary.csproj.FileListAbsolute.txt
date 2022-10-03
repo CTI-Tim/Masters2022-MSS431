@@ -1,0 +1,9 @@
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\bin\Debug\Timslibrary.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\bin\Debug\Timslibrary.pdb
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\bin\Debug\ReflectionInterface.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\bin\Debug\ReflectionInterface.pdb
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\obj\Debug\Timslibrary.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\obj\Debug\Timslibrary.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\obj\Debug\Timslibrary.csproj.CopyComplete
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\obj\Debug\Timslibrary.dll
+\\Mac\Home\Desktop\Masters2022-MSS431-main\CrestronMastersMSS431InstructorProgram\Timslibrary\obj\Debug\Timslibrary.pdb
